@@ -15,4 +15,13 @@ class ArticlesController < ApplicationController
   @article.save
   redirect_to article_path(@article)
   end
+  def destroy
+    @article = Article.find(params[:id])
+    #data: {confirm: "Really delete the article?"}
+    @article.destroy
+    redirect_to article_path
+  end
+  def edit
+  @article = Article.find(params[:id])
+end
 end
