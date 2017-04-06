@@ -17,5 +17,19 @@
   </p>
 <% end %>
 <h3>Post a Comment</h3>
-<p>(Comment form will go here)</p>
+
+<%= form_for [ @article, @comment ] do |f| %>
+  <p>
+    <%= f.label :author_name %><br/>
+    <%= f.text_field :author_name %>
+  </p>
+  <p>
+    <%= f.label :body %><br/>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit 'Submit' %>
+  </p>
+<% end %>
+
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
