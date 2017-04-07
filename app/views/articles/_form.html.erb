@@ -31,5 +31,8 @@
     <%= f.submit 'Submit' %>
   </p>
 <% end %>
-
+<p>
+  <%= f.label :tag_list %><br />
+  <%= f.text_field :tag_list %>
+</p>
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
