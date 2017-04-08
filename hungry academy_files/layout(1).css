@@ -1,0 +1,86 @@
+span.micro {
+  font-size: 60%;
+  display: block;
+  line-height: 100%;
+  padding-top: .2em;
+}
+
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+#Site Styles
+#Page Styles
+#Media Queries
+#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+@media only screen and (max-width: 321px) {
+  table a.poweredimage { position:absolute; right:5px; }
+  .footer table a.emailimage, table a.twitterimage { margin-top:30px;}
+  .footer table a.emailimage { margin-right: 10px; }
+  .footer table td.hungry { position:relative; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+/*@media only screen and (max-width: 767px) {}*/
+@media only screen and (max-width: 767px) {
+  header h1                 { margin-top: 5px; padding: 105px 0; display: block; text-indent: -9999px; background: transparent url("../images/header-bg-mobile.png") no-repeat top center; }
+  div.video iframe    { width: 96%; margin: 5px 0 0 5px;}
+  div#banner          { width: inherit; padding-left: 10px; }
+  .container .one.column, .container .two.columns, .container .three.columns, .container .four.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns, .container .thirteen.columns, .container .fourteen.columns, .container .fifteen.columns, .container .sixteen.columns, .container .one-third.column, .container .two-thirds.column  { width: 100%; }
+  .container .five.columns { width: auto; }
+  .container .one-third.column:first-child { padding-left: 10px; margin-left: 0px; }
+  .container .one-third.column:last-child { padding-left: 10px; margin-left: 0px; }
+  div.abouttheacademy, div.beastimage, div.joinmailinglist, div.quot { padding: 0 0 0 10px; }
+  div.howitworks, div.ourpeople { padding: 0 0 0 10px; }
+  div.howitworks ul, div.howitworks p, div.ourpeople ul { margin-right: 10px; }
+  div.articles, div.events, div.resources { padding: 0 0 0 10px; }
+  div.articles { margin-left: 10px; }
+  header nav { line-height: 3em; }
+  header nav ul li a  { margin: 0px 5px; }
+
+}
+
+@media only screen and (min-width: 767px){
+  div#banner span, div#banner { height: 190px; }
+  div#banner:after    { content: ' '; position: absolute; width: 0; height: 0; left: 0; top: 34%; border-width: 20px 20px; margin-top: 125px; border-style: solid; border-color: #666 #666 transparent transparent; }
+  div#banner:before   { content: ' '; position: absolute; width: 0; height: 0; left: -70px; top: 43%; border-width: 70px 50px; border-style: solid; border-color: #404040 #404040 #404040 transparent; z-index: -100; }
+  div#banner span:after { content: ' '; position: absolute; width: 0; height: 0; right: 0; top: 34%; border-width: 20px 20px; margin-top: 125px; border-style: solid; border-color: #666 transparent transparent #666; }
+  div#banner span:before { content: ' '; position: absolute; width: 0; height: 0; right: -70px; top: 43%; border-width: 70px 50px; border-style: solid; border-color: #404040 transparent #404040 #404040; z-index: -100; }
+  header nav          { width: 990px; margin: 0 -2em;}
+  header nav:before   { pointer-events: none; content: ""; position: absolute; top: 4px; left: 0; right: 0; border: 1.1em solid; border-color: transparent #cccccc; }
+}
+
+/* #Font-Face
+================================================== */
+/*   This is the proper syntax for an @font-face file
+Just create a "fonts" folder at the root,
+copy your FontName into code below and remove
+comment brackets */
+
+/*  @font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('eot'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+font-weight: normal;
+font-style: normal; }
+*/
